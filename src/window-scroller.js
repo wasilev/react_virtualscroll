@@ -3,15 +3,15 @@ import {
   AutoSizer,
   CellMeasurer,
   CellMeasurerCache,
-  List,
-  WindowScroller
+  List
 } from "react-virtualized";
 
 import cn from "classnames";
 
 class MyWindowScroller extends React.Component {
-  mostRecentWidth = undefined;
-  listRef = undefined;
+  mostRecentWidth;
+
+  listRef;
   cache = new CellMeasurerCache({
     fixedWidth: true,
     defaultHeight: 150
@@ -19,7 +19,7 @@ class MyWindowScroller extends React.Component {
 
   render() {
     return (
-      <div className="WindowScrollerWrapper">
+      <div className="WindowScroller">
         <AutoSizer>
           {({ height, width }) => {
             console.log(width, height);

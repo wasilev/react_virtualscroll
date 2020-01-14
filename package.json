@@ -1,7 +1,7 @@
 {
-  "name": "viscroll",
+  "name": "hyusz",
   "version": "0.0.14",
-  "description": "https://stackoverflow.com/questions/46314632/use-react-virtualized-window-scroller-with-frozen-header-and-footer?rq=1",
+  "description": "react-virtualized  Scroll with frozen header and footer",
   "keywords": [],
   "main": "index.js",
   "dependencies": {
