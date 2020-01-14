@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App-header,
+.App-footer {
+  background-color: #f22;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+.App-footer {
+  background-color: #222;
+}
+.App-intro {
+}

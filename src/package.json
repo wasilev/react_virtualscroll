@@ -1,0 +1,13 @@
+{
+  "name": "viscroll",
+  "version": "1.0.0",
+  "description": "https://stackoverflow.com/questions/46314632/use-react-virtualized-window-scroller-with-frozen-header-and-footer?rq=1",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "faker": "4.1.0",
+    "react": "15.5.3",
+    "react-dom": "15.5.3",
+    "react-virtualized": "9.10.1"
+  }
+}
